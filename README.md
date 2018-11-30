@@ -1,4 +1,5 @@
 [![travis](https://travis-ci.org/paulamool/biodemo.svg?branch=master)](https://travis-ci.org/paulamool/biodemo)
+[![codecov](https://codecov.io/github/paulamool/biodemo/branch/master/graphs/badge.svg)](https://codecov.io/github/paulamool/biodemo)
 
 # Overview 
 
