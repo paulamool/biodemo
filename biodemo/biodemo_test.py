@@ -11,9 +11,9 @@ from biodemo import FastaStats
 
 class TestFastaStats(unittest.TestCase):
     '''Unit tests for FastaStats'''
-    def do_test(self, input_str, minlen, expected):
+    def do_test(self, input_str, minlen, maxlen, expected):
         "Wrapper function for testing FastaStats"
-        result = FastaStats().from_file(StringIO(input_str), minlen)
+        result = FastaStats().from_file(StringIO(input_str), minlen, maxlen)
         self.assertEqual(expected, result)
 
     def test_zero_byte_input(self):
