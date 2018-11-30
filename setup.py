@@ -13,7 +13,7 @@ and is an ideal starting place for new projects.'''
 
 setup(
     name='biodemo',
-    version='0.1.0.0',
+    version='1.0.0.1',
     author='paulamool',
     author_email='paula.moolhuijzen@curtin.edu.au',
     packages=['biodemo'],
